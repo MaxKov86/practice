@@ -1,18 +1,21 @@
-var stroka = "World";
+var arr = [5, "world", true, 5.6, -100, 0];
+console.log(arr[1]);
 
-switch (stroka) {
-  case "4":
-    console.log("Переменная со значением 4");
-    break;
-  case "45":
-    console.log("Переменная со значением 45");
-    break;
-  case "Word":
-    console.log("Переменная со значением: World");
-    break;
-  default:
-    console.log("Default");
-}
+// var stroka = "World";
+
+// switch (stroka) {
+//   case "4":
+//     console.log("Переменная со значением 4");
+//     break;
+//   case "45":
+//     console.log("Переменная со значением 45");
+//     break;
+//   case "Word":
+//     console.log("Переменная со значением: World");
+//     break;
+//   default:
+//     console.log("Default");
+// }
 
 // var number = 15;
 // var isHasHouse = true;
